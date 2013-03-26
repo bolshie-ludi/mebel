@@ -210,6 +210,15 @@
  *   );
  * @endcode
  */
+
+$databases['default']['default'] = array(
+     'driver' => 'pgsql',
+     'database' => 'da2atl8be07n4o',
+     'username' => 'bqtailexcjryqo',
+     'password' => 'fZln-FLvJxNDOUVV4rliVEv-xa',
+     'host' => 'ec2-107-21-106-52.compute-1.amazonaws.com',
+     'prefix' => '',
+   );
 $databases = array();
 
 /**
