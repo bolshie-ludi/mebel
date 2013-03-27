@@ -1,4 +1,4 @@
-#FUCK ALL WORLD
+#FUCK ALL
 
 User-agent: *
 Crawl-delay: 10
