@@ -219,7 +219,7 @@ $databases = array (
       'username' => 'imperiob_drup1',
       'password' => 'IwAvrc7oQZg)9',
       'host' => '127.0.0.1',
-      'port' => '3306',
+      'port' => '3336',
       'driver' => 'mysql',
       'prefix' => 'drup_',
     ),
