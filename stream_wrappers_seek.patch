@@ -1,0 +1,16 @@
+Index: includes/stream_wrappers.inc
+===================================================================
+RCS file: /cvs/drupal/drupal/includes/stream_wrappers.inc,v
+retrieving revision 1.17
+diff -u -p -r1.17 stream_wrappers.inc
+--- includes/stream_wrappers.inc	12 Jun 2010 08:15:15 -0000	1.17
++++ includes/stream_wrappers.inc	4 Jul 2010 08:43:49 -0000
+@@ -477,7 +477,7 @@ abstract class DrupalLocalStreamWrapper 
+    * @see http://php.net/manual/en/streamwrapper.stream-seek.php
+    */
+   public function stream_seek($offset, $whence) {
+-    return fseek($this->handle, $offset, $whence);
++    return (bool) !fseek($this->handle, $offset, $whence);
+   }
+ 
+   /**
