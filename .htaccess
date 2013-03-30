@@ -11,7 +11,7 @@
 Options -Indexes
 
 # Follow symbolic links in this directory.
-Options +FollowSymLinks
+# Options +FollowSymLinks
 
 # Make Drupal handle any 404 errors.
 ErrorDocument 404 /index.php
@@ -113,4 +113,4 @@ DirectoryIndex index.php
   RewriteRule ^(.*)$ index.php?q=$1 [L,QSA]
 </IfModule>
 
-# $Id: .htaccess,v 1.90.2.5 2010/02/02 07:25:22 dries Exp $
+# $Id: .htaccess,v 1.90.2.5 2010/02/02 07:25:22 dries Exp $$
