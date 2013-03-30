@@ -210,15 +210,6 @@
  *   );
  * @endcode
  */
-
-$databases['default']['default'] = array(
-     'driver' => 'pgsql',
-     'database' => 'da2atl8be07n4o',
-     'username' => 'bqtailexcjryqo',
-     'password' => 'fZln-FLvJxNDOUVV4rliVEv-xa',
-     'host' => 'ec2-107-21-106-52.compute-1.amazonaws.com',
-     'prefix' => '',
-   );
 $databases = array (
   'default' => 
   array (
@@ -228,7 +219,7 @@ $databases = array (
       'username' => 'imperiob_drup1',
       'password' => 'IwAvrc7oQZg)9',
       'host' => '127.0.0.1',
-      'port' => '6565',
+      'port' => '3306',
       'driver' => 'mysql',
       'prefix' => 'drup_',
     ),
