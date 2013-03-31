@@ -39,6 +39,9 @@ li a.active {
  */
 
 #navigation {
+  background: url(../images/menu-bg.gif) 0 0 repeat-x #f8b31e;
+  padding-left: 52px;
+  height: 80px;
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
 }
 
