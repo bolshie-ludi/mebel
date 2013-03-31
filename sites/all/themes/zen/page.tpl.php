@@ -111,13 +111,13 @@
     <?php print render($page['header']); ?>
 
   </header>
-
+<?php if($page['navigation']): ?>
   <div id="navigation">
 
       <?php print render($page['navigation']); ?>
 
     </div><!-- /#navigation -->
-
+<?php endif; ?>
   <div id="main">
 
     <div id="content" class="column" role="main">
