@@ -92,7 +92,7 @@
       </hgroup><!-- /#name-and-slogan -->
     <?php endif; ?>
 
-    <?php if ($secondary_menu): ?>
+   <!-- <?php if ($secondary_menu): ?>
       <nav id="secondary-menu" role="navigation">
         <?php print theme('links__system_secondary_menu', array(
           'links' => $secondary_menu,
@@ -107,7 +107,7 @@
         )); ?>
       </nav>
     <?php endif; ?>
-
+-->
     <?php print render($page['header']); ?>
 
   </header>

@@ -13,6 +13,7 @@
  */
 
 body {
+  background: url(../images/bg.jpg) 0 0 repeat #d1d1d1 fixed;
   margin: 0;
   padding: 0;
 }
