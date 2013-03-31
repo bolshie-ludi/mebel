@@ -41,7 +41,7 @@ li a.active {
 #navigation {
   background: url(../images/menu-bg.gif) 0 0 repeat-x #f8b31e;
   padding-left: 52px;
-  height: 80px;
+  height: 80px
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
 }
 
@@ -72,6 +72,40 @@ li a.active {
   padding: 0 10px 0 0; /* LTR */
   list-style-type: none;
   list-style-image: none;
+}
+
+#superfish-1 {
+  margin: 0px;
+  background: url(../images/divider.gif) 0 center no-repeat;
+  position: relative;
+  width: auto;
+  height: 80px;
+}
+
+#superfish-1>li {
+  background: url(../images/divider.gif) right center no-repeat;
+  border: 0;
+  overflow: inherit;
+  padding: 0 1px 0 0;
+  text-align: center;
+}
+#superfish-1>li>a {
+border: 0;
+width: 117px;
+text-align: center;
+color: #94690b;
+font-size: 14px;
+line-height: 17px;
+text-transform: uppercase;
+font-weight: normal;
+padding: 32px 20px 31px 19px;
+text-decoration: none;
+background: url(../images/menu-hover.gif) 0 -100px repeat-x;
+-webkit-transition: all ease .42s;
+-moz-transition: all ease .42s;
+-ms-transition: all ease .42s;
+-o-transition: all ease .42s;
+transition: all ease .42s;
 }
 
 .region-navigation {
