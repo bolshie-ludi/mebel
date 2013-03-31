@@ -108,6 +108,12 @@ background: url(../images/menu-hover.gif) 0 -100px repeat-x;
 transition: all ease .42s;
 }
 
+#superfish-1>li>a:hover, #superfish-1>li>a.active, #superfish-1>li>a.sfHover {
+color: #9c6e0b;
+background-position: 0 0;
+background-color: #f8b31e;
+}
+
 .region-navigation {
 }
 
