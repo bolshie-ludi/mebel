@@ -44,6 +44,7 @@
 
 .jcarousel-skin-default .views-field-title {
   background: url(caption.gif) 0 0 repeat-x #3c3c3c;
+  min-height: 108px;
 }
 
 .jcarousel-skin-default .views-field-title .field-content {
