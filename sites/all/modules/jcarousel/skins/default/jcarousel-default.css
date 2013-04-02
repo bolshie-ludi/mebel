@@ -13,9 +13,8 @@
 }
 
 .jcarousel-skin-default .jcarousel-container-horizontal {
-  width: 440px;
-  height: 102px;
-  padding: 20px 40px;
+  width: 1040px;
+  height: 400px;
   margin: auto;
 }
 
@@ -27,7 +26,7 @@
 }
 
 .jcarousel-skin-default .jcarousel-clip-horizontal {
-  width: 440px;
+  width: 1040px;
   overflow: hidden;
 }
 
@@ -38,16 +37,34 @@
 
 .jcarousel-skin-default .jcarousel-item {
   padding: 0;
-  width: 100px;
-  height: 100px;
+  width: 260px;
+  height: 400px;
   overflow: hidden;
-  border: 1px solid #CCC;
   list-style: none;
   background: #fff none;
 }
 
-.jcarousel-skin-default .jcarousel-item-horizontal {
-  margin: 0 4px;
+.jcarousel-skin-default .views-field-title {
+  background: url(caption.gif) 0 0 repeat-x #3c3c3c;
+}
+
+.jcarousel-skin-default .views-field-title .field-content {
+  display: block;
+  background: url(divider2.gif) right center no-repeat;
+  padding: 15px 20px 26px;
+}
+
+.jcarousel-skin-default .views-field-title .field-content a {
+  color: #e6e5e1;
+  text-decoration: none;
+}
+
+.jcarousel-skin-default .views-field-title .title {
+  font-family: "Oswald",sans-serif;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 9px;
 }
 
 .jcarousel-skin-default .jcarousel-item-vertical {
@@ -81,7 +98,7 @@
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   position: absolute;
   top: 55px;
-  left: 10px;
+  left: -50px;
   background-position: 0 0;
 }
 .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
@@ -94,7 +111,7 @@
 .jcarousel-skin-default .jcarousel-next-horizontal {
   position: absolute;
   top: 55px;
-  right: 10px;
+  right: -50px;
   background-position: 0 -32px;
 }
 .jcarousel-skin-default .jcarousel-next-horizontal:hover {
