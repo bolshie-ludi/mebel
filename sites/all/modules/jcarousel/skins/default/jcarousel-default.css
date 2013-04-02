@@ -63,7 +63,8 @@
 }
 
 .jcarousel-skin-default .views-field-title .title {
-  font-family: "Oswald",sans-serif;
+  font-family: ‘Metrophobic’, Arial, serif; 
+  font-weight: 400; 
   font-size: 24px;
   line-height: 29px;
   text-transform: uppercase;

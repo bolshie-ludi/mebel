@@ -112,6 +112,7 @@ function zen_preprocess_html(&$variables, $hook) {
   $variables['add_html5_shim']          = in_array('html5', $html5_respond_meta);
   $variables['default_mobile_metatags'] = in_array('meta', $html5_respond_meta);
 
+  drupal_add_css('http://fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic', array('type' => 'external'));
   // If the user is silly and enables Zen as the theme, add some styles.
   if ($GLOBALS['theme'] == 'zen') {
     include_once './' . $variables['path_to_zen'] . '/zen-internals/template.zen.inc';
