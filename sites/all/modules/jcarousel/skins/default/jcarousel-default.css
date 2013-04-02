@@ -36,11 +36,14 @@
 
 .jcarousel-skin-default .jcarousel-item {
   padding: 0;
-  height: 400px;
   width: 260px;
   overflow: hidden;
   list-style: none;
   background: #fff none;
+}
+
+.jcarousel-skin-default .views-field-field-photo {
+  height: 400px;
 }
 
 .jcarousel-skin-default .views-field-title {
