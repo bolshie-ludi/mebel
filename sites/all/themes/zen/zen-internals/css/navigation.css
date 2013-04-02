@@ -39,9 +39,7 @@ li a.active {
  */
 
 #navigation {
-  background: url(../images/menu-bg.gif) 0 0 repeat-x #f8b31e;
-  padding-left: 52px;
-  height: 80px;
+  height: auto;
   /* overflow: hidden; */ /* Sometimes you want to prevent overlapping with main div. */
 }
 
@@ -79,6 +77,7 @@ li a.active {
   background: url(../images/divider.gif) 0 center no-repeat;
   position: relative;
   width: auto;
+  padding-left: 126px;
   height: 80px;
 }
 
@@ -112,6 +111,10 @@ transition: all ease .42s;
 color: #9c6e0b;
 background-position: 0 0;
 background-color: #f8b31e;
+}
+
+#block-superfish-1 {
+  background: url(../images/menu-bg.gif) 0 0 repeat-x #f8b31e;
 }
 
 .region-navigation {
