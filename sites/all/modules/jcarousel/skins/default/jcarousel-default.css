@@ -107,7 +107,7 @@
   left: -50px;
 }
 .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
-  background-position: -52px 0;
+  background-position: -51px 0;
 }
 .jcarousel-skin-default .jcarousel-prev-horizontal:active {
   background-position: -51px 0;
@@ -123,7 +123,7 @@
   background-position: 0px -102px;
 }
 .jcarousel-skin-default .jcarousel-next-horizontal:active {
-  background-position: 0px -101px;
+  background-position: 0px -102px;
 }
 
 /**
