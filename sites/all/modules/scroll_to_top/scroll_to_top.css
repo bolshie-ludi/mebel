@@ -35,6 +35,10 @@ body {
 }
 /* arrow icon (span tag) */
 #back-top span#button , #back-top-prev span#button-prev{
+
+	#back-top span#button {
+	border-radius: 0;
+	background: url(to-top.png) center center no-repeat #ffbf34;
 	width: 50px;
 	height: 50px;
 	display: block;
@@ -42,14 +46,6 @@ body {
 	background-color: #ddd; 
 	background-position: center center;
 	background-repeat: no-repeat;
-	
-	background-image: url('up-arrow.png') ;
-	opacity:0.8;
-	filter:alpha(opacity = 80);
-	/* rounded corners */
-	-webkit-border-radius: 8px;
-	-moz-border-radius: 8px;
-	border-radius: 8px;
 	/* background color transition */
 	-webkit-transition: 1s;
 	-moz-transition: 1s;
