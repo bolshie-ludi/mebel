@@ -55,6 +55,7 @@
   display: block;
   background: url(divider2.gif) right center no-repeat;
   padding: 15px 20px 26px;
+  min-height: 67px;
 }
 
 .jcarousel-skin-default .views-field-title .field-content a {
