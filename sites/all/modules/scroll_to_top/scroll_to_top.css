@@ -35,8 +35,6 @@ body {
 }
 /* arrow icon (span tag) */
 #back-top span#button , #back-top-prev span#button-prev{
-
-	#back-top span#button {
 	border-radius: 0;
 	background: url(to-top.png) center center no-repeat #ffbf34;
 	width: 50px;
