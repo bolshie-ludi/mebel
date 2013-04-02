@@ -86,9 +86,11 @@
 .jcarousel-skin-default .jcarousel-next,
 .jcarousel-skin-default .jcarousel-prev {
   display: block;
-  width: 32px;
-  height: 32px;
-  background-image: url(arrows.png);
+  position: absolute;
+  width: 50px;
+  height: 100px;
+  background: url(controls.png) right bottom no-repeat;
+  z-index: 99;
 }
 
 .jcarousel-skin-default .jcarousel-next-disabled,
@@ -101,28 +103,27 @@
  */
 .jcarousel-skin-default .jcarousel-prev-horizontal {
   position: absolute;
-  top: 55px;
+  top: 230px;
   left: -50px;
-  background-position: 0 0;
 }
 .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
-  background-position: -32px 0;
+  background-position: -52px 0;
 }
 .jcarousel-skin-default .jcarousel-prev-horizontal:active {
-  background-position: -64px 0;
+  background-position: -51px 0;
 }
 
 .jcarousel-skin-default .jcarousel-next-horizontal {
   position: absolute;
-  top: 55px;
+  top: 230px;
   right: -50px;
-  background-position: 0 -32px;
+  background-position: 0 0px;
 }
 .jcarousel-skin-default .jcarousel-next-horizontal:hover {
-  background-position: -32px -32px;
+  background-position: 0px -102px;
 }
 .jcarousel-skin-default .jcarousel-next-horizontal:active {
-  background-position: -64px -32px;
+  background-position: 0px -101px;
 }
 
 /**
