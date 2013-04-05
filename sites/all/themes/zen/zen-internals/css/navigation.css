@@ -74,10 +74,10 @@ li a.active {
 
 #superfish-1 {
   margin: 0px;
-  background: url(../images/divider.gif) 0 center no-repeat;
+  background: url(../images/divider.gif) left center no-repeat;
   position: relative;
   width: auto;
-  padding-left: 126px;
+  margin-left: 126px;
   height: 80px;
 }
 

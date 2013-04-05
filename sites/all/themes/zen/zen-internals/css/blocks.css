@@ -8,6 +8,22 @@
   margin-bottom: 1.5em;
 }
 
+#superfish-2>li{
+
+}
+#block-superfish-2{
+	height: 20px;
+}
+
+#superfish-2>li>a{
+	font-size: 17px;
+	line-height: 22px;
+	color: #7c7c7c;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
 .block.first { /* The first block in the region */
 }
 
