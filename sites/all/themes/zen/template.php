@@ -482,6 +482,11 @@ function zen_page_alter(&$page) {
   }
 }
 
+function zen_js_alter(&$js) {
+  $js['misc/jquery.js']['data'] = drupal_get_path('theme', 'zen') . 'js/jquery-1.9.1.min.js';
+  // Замена внешней jQuery для использования обновленной версии библиотеки
+}
+
 /**
  * Implements hook_form_BASE_FORM_ID_alter().
  *
