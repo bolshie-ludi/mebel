@@ -109,7 +109,6 @@
     <?php endif; ?>
 -->
     <?php print render($page['header']); ?>
-
   </header>
 <?php if($page['navigation']): ?>
   <div id="navigation">
