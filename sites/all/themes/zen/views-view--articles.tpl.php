@@ -27,6 +27,10 @@
  * @ingroup views_templates
  */
 ?>
+<?php
+  drupal_add_js('sites/all/themes/zen/articles_folder/js_item_blur/modernizr.custom.34978.js');
+  drupal_add_css('sites/all/themes/zen/articles_folder/css_item_blur/style.css');
+?>
 <div class="<?php print $classes; ?>">
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
@@ -52,8 +56,10 @@
   <?php endif; ?>
 
   <?php if ($rows): ?>
-    <div class="view-content ib-container">
+    <div class="view-content">
+    <section class="ib-container" id="ib-container">
       <?php print $rows; ?>
+      </section>
     </div>
   <?php elseif ($empty): ?>
     <div class="view-empty">

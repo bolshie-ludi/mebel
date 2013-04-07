@@ -1,4 +1,4 @@
-<?php
+v<?php
 /**
  * @file
  * Contains infrequently used theme registry build functions.
