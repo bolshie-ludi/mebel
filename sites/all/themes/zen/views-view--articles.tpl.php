@@ -30,7 +30,39 @@
 <?php
   drupal_add_js('sites/all/themes/zen/articles_folder/js_item_blur/modernizr.custom.34978.js');
   drupal_add_css('sites/all/themes/zen/articles_folder/css_item_blur/style.css');
+  drupal_add_js('http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js');
 ?>
+<script>
+(function ($) {
+  // Original JavaScript code.
+  var $container  = $('#ib-container'),
+    $articles   = $container.children('article'),
+    timeout;
+ 
+$articles.bind( 'mouseenter', function( event ) {
+    console.log('hi');
+    var $article    = $(this);
+    clearTimeout( timeout );
+    timeout = setTimeout( function() {
+         
+        if( $article.hasClass('active') ) return false;
+         
+        $articles.not($article).removeClass('active').addClass('blur');
+         
+        $article.removeClass('blur').addClass('active');
+         
+    }, 75 );
+     
+});
+ 
+$container.bind( 'mouseleave', function( event ) {
+     
+    clearTimeout( timeout );
+    $articles.removeClass('active blur');
+     
+});
+})(jQuery);
+</script>
 <div class="<?php print $classes; ?>">
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>

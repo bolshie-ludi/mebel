@@ -4,7 +4,7 @@
 <?php print $fields['title']->content; ?>
 </h3>
 </header>
-    <p>  "sex"
-    //<?php dpm($fields);?>
+    <p>
+    <?php print $fields['body']->content;?>
     </p>
 </article>
