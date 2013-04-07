@@ -1,5 +1,8 @@
-<article>
-<?php print $fields['title']->content;
-print $fields['body']->content;?>
-
-</article>
+<header>
+<h3>
+<?php print $fields['title']->content; ?>
+</h3>
+</header>
+    <p>
+    <?php print $fields['body']->content;?>
+    </p>
