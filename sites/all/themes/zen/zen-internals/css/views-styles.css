@@ -17,6 +17,17 @@
   position: absolute;
   padding: 10px 20px 10px 20px;
   background: white;
+  max-width: 313px;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 20px;
+  line-height: 29px;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.tovar-title  a{
+  color: black;
+  text-decoration: none;
 }
 
 .views-displays .secondary li {
