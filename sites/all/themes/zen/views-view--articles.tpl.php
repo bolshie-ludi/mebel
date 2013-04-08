@@ -32,13 +32,14 @@
   drupal_add_css('sites/all/themes/zen/articles_folder/css_item_blur/style.css');
 ?>
 <script>
-var $container  = $("#ib-container"),
+jQuery(document).ready(function() {
+var $container  = jQuery("#ib-container"),
     $articles   = $container.children('article'),
     timeout;
  
 $articles.on( 'mouseenter', function( event ) {
          
-    var $article    = $(this);
+    var $article    = jQuery(this);
     clearTimeout( timeout );
     timeout = setTimeout( function() {
          
@@ -57,7 +58,7 @@ $container.on( 'mouseleave', function( event ) {
     clearTimeout( timeout );
     $articles.removeClass('active blur');
      
-});
+});});
 </script>
 <div class="<?php print $classes; ?>">
   <?php print render($title_prefix); ?>
