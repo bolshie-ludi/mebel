@@ -6,7 +6,7 @@ sites/*/*settings*.php
 # files/
 # sites/*/files
 # sites/*/private
-
+tmp
 .DS_Store
 
 # Ignore default text files
