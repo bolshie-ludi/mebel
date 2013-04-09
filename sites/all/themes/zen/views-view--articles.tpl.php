@@ -26,8 +26,6 @@
  *
  * @ingroup views_templates
  */
-?>
-<?php
   drupal_add_js('sites/all/themes/zen/articles_folder/js_item_blur/modernizr.custom.34978.js');
   drupal_add_css('sites/all/themes/zen/articles_folder/css_item_blur/style.css');
 ?>
@@ -122,4 +120,4 @@ $container.on( 'mouseleave', function( event ) {
     </div>
   <?php endif; ?>
 
-</div><?php /* class view */ ?>
+</div>

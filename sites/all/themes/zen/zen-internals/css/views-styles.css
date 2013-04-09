@@ -13,6 +13,22 @@
  * entire section.
  */
 
+.view-sales td {
+  width:360px;
+  padding-bottom: 20px;
+  padding-right: 21px;
+}
+
+.price {
+  color: black;
+}
+
+.new-price {
+  color: #900;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 .tovar-title {
   position: absolute;
   padding: 10px 20px 10px 20px;

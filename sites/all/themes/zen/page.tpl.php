@@ -69,7 +69,7 @@
  * @see template_process()
  */
 ?>
-
+<div id="page-wrapper">
 <div id="page">
 
   <header id="header" role="banner">
@@ -156,5 +156,5 @@
   <?php print render($page['footer']); ?>
 
 </div><!-- /#page -->
-
+</div><!-- /#page-wrapper -->
 <?php print render($page['bottom']); ?>
