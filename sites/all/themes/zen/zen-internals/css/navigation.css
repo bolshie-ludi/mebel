@@ -130,11 +130,6 @@ background-color: #5f090f;
   float: right; /* LTR */
 }
 
-ul.pager {
-padding: 2px;
-overflow: hidden;
-}
-
 ul.pager li {
 font-family: "Oswald",sans-serif;
 text-decoration: none;
@@ -142,7 +137,6 @@ font-weight: 400;
 font-size: 12px;
 line-height: 15px;
 padding: 0;
-margin: 0 10px 0 0;
 text-transform: uppercase;
 }
 
@@ -154,10 +148,10 @@ padding: 7px 15px 9px;
 display: inline-block;
 font-weight: 400;
 background: url(../images/button.gif) 0 0 repeat-x #e6a311;
-color: #946e12;
+color: #fff;
 }
 
-.content ul.pager li a {
+ul.pager li a {
 text-decoration: none;
 -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4);
 -moz-box-shadow: 0 1px 2px rgba(0,0,0,.4);
@@ -166,8 +160,11 @@ padding: 7px 15px 9px;
 display: inline-block;
 background: url(../images/link.gif) 0 0 repeat-x #e5e3de;
 color: #a29f98;
-border-radius: 11px;
 }
+
+ul.pager li a:hover {
+  background:url(../images/button.gif) 0 0 repeat-x #e6a311;
+  color:#fff;}
 
 /*
  * Menu blocks

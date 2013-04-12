@@ -209,13 +209,6 @@ span.field-label { /* The inline field label used by the Fences module */
   padding: 0 1em 0 0; /* LTR */
 }
 
-.item-list .pager { /* A list of page numbers when more than 1 page of content is available */
-  padding: 0;
-}
-.item-list .pager li { /* Each page number in the pager list */
-  padding: 0 0.5em;
-}
-
 .feed-icon { /* The link to the RSS or Atom feed for the current list of content */
 }
 
