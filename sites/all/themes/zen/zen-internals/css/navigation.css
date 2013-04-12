@@ -91,7 +91,7 @@ li a.active {
 border: 0;
 width: 117px;
 text-align: center;
-color: #94690b;
+color: white;
 font-size: 14px;
 line-height: 17px;
 text-transform: uppercase;
@@ -107,9 +107,9 @@ transition: all ease .42s;
 }
 
 #superfish-1>li>a:hover, #superfish-1>li>a.active, #superfish-1>li>a.sfHover {
-color: #9c6e0b;
+color: white;
 background-position: 0 0;
-background-color: #f8b31e;
+background-color: #5f090f;
 }
 
 #block-superfish-1 {
