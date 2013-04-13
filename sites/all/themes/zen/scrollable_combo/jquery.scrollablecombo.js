@@ -100,6 +100,7 @@
 				$selected.show().removeClass('selected');
 				$this.parent().addClass('selected').hide();
 				closeCombo();
+				$('#edit-submit-tovary').click();
 				e.preventDefault();
 			});
 			
