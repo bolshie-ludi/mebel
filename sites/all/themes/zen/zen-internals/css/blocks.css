@@ -13,7 +13,7 @@
 }
 #block-superfish-2{
 	height: 105px;
-	width: 200px;
+	width: 20%;
 	float: left;
 	text-align: left;
 }
@@ -24,12 +24,16 @@
 }
 
 #block-block-2 {
-	width: 300px;
+	width: 20%;
 	float: left;
 }
 #block-block-3{
-	width: 300px;
+	width: 60%;
 	float: left;
+}
+
+.pluso-vertical {
+	text-align: right !important;
 }
 
 #superfish-2>li>a{
