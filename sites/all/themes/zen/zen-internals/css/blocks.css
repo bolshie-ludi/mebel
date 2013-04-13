@@ -13,6 +13,8 @@
 }
 #block-superfish-2{
 	height: 105px;
+	width: 200px;
+	float: left;
 	text-align: left;
 }
 
