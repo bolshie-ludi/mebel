@@ -104,9 +104,9 @@
 			});
 			
 			
-			
 		});
 	};
+	
 	$.fn.scrollablecombo.defaults = {
 		
 	};
