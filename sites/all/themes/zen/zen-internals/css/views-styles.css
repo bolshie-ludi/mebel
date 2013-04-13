@@ -38,7 +38,7 @@
   font-weight: bold;
 }
 
-.tovar-title {
+.tovar-title,  {
   position: absolute;
   padding: 10px 20px 10px 20px;
   background: white;
@@ -55,6 +55,9 @@
   text-decoration: none;
 }
 
+.articles_for_main {
+  padding-bottom: 20px;
+}
 .views-displays .secondary li {
   float: none;
   margin: 0 6px 0;
