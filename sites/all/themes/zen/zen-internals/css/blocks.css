@@ -18,6 +18,20 @@
 	text-align: left;
 }
 
+#block-block-1 {
+	width: 100%;
+	float: left;
+}
+
+#block-block-2 {
+	width: 300px;
+	float: left;
+}
+#block-block-3{
+	width: 300px;
+	float: left;
+}
+
 #superfish-2>li>a{
 	line-height: 22px;
 	color: #7c7c7c;
