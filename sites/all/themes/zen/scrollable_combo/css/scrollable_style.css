@@ -3,10 +3,6 @@
   float:left;
   clear:both;
   position:relative;
-  margin:30px 5px;
-  font-family: "Trebuchet MS", Helvetica, sans-serif;
-  font-size:12px;
-  text-transform:uppercase;
 }
 .cb_select .cb_selectMain{
   color:#777;

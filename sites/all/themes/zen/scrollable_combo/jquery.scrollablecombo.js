@@ -47,25 +47,25 @@
 				if($option.attr('selected'))
 					liclass = 'selected';
 				var $li_e 	= $('<li />',{
-					className	:	liclass,
+					class	:	liclass,
 					html		:	'<a href="'+$option.val()+'">'+$option.html()+'</a>'
 				});
 				$ul_e.append($li_e);
 			});
 			
 			var $wrapper_e 	= $('<div />',{
-				className	:	'cb_selectWrapper'
+				class	:	'cb_selectWrapper'
 			});
 			
 			$wrapper_e.append($ul_e);
 			
 			var $control_e 	= $('<div />',{
 				//id			:	'ui_element',
-				className	:	'cb_selectMain cb_down'
+				class	:	'cb_selectMain cb_down'
 			});
 			
 			var $select_e 	= $('<div />',{
-				className	:	'cb_select'
+				class	:	'cb_select'
 			});
 			
 			$select_e.append($wrapper_e).append($control_e);
