@@ -32,6 +32,10 @@
 	float: left;
 }
 
+.pluso-more {
+	display: none;
+}
+
 .pluso-vertical {
 	text-align: right !important;
 }
