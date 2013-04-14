@@ -11,13 +11,13 @@
  */
   drupal_add_js('sites/all/themes/zen/scrollable_combo/jquery.scrollablecombo.js');
   drupal_add_css('sites/all/themes/zen/scrollable_combo/css/scrollable_style.css');
-?>
+/*?>
 <script>
-jQuery(document).ready(function() {
-                jQuery('#edit-field-type-value').scrollablecombo();
-                jQuery('#edit-field-factory-tid').scrollablecombo();
-            });
-</script>
+ jQuery(document).ready(function() {
+                 jQuery('#edit-field-type-value').scrollablecombo();
+                 jQuery('#edit-field-factory-tid').scrollablecombo();
+             });
+ </script> */ ?>
 <?php if (!empty($title)) : ?>
   <h3><?php print $title; ?></h3>
 <?php endif; ?>
