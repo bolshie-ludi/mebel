@@ -1,17 +1,3 @@
-/**
- * @file
- * Tabs Styling
- *
- * Adds styles for the primary and secondary tabs.
- *
- * Compare this with default CSS found in the system module's stylesheet (a copy
- * of which is in drupal7-reference.css.)
- */
-
-
-/*
- * Basic positioning styles shared by primary and secondary tabs.
- */
 
 ul.primary,
 ul.secondary {

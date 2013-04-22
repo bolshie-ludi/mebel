@@ -13,14 +13,90 @@
  * entire section.
  */
 
-.view-tovary .views-exposed-form {
-  border: 1px solid #e2e2e2;
-  line-height: 19px;
-  background: #f2f2f2;
-  padding: 18px 19px 19px 18px;
-  margin-bottom: 40px;
-  height: 42px;
+.node-tovar .field {
+  float: right;
+  width: 336px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #555;
+  border: 3px solid #555;
+  padding: 3px;
+  text-indent: 4px;
+  margin-top: -3px;
 }
+
+.field-name-field-price {
+  margin-top: 0px !important;
+}
+
+.field-name-field-factory a{
+text-decoration: none;
+}
+#page-title {
+  padding: 10px 15px;
+  border-left: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  text-transform: uppercase;
+  margin: 10px 0 30px;
+  text-align: left;
+  font-weight: 700;
+}
+.view-tovary .views-exposed-form {
+padding-bottom: 10px;
+}
+
+.views-exposed-widget .form-item {
+  width: 270px;
+}
+.views-exposed-widget label {
+padding-left: 20px;
+padding-top: 10px;
+background: #3c3c3c;
+color: #9b9b9b;
+padding-bottom: 10px;
+width: 100%;
+}
+
+.views-exposed-widget .form-type-bef-link {
+  float: left;
+  padding: 5px 10px;
+  background: rgba(158, 24, 71, 1);
+}
+
+.views-exposed-widget .form-type-bef-link:hover, .form-item.selected {
+  background: rgba(158, 24, 71, 0.8);
+}
+
+.views-exposed-widget .form-type-bef-link a {
+  display: block;
+  padding: 0px 20px;
+  color: white;
+}
+
+.views-exposed-widget .form-type-bef-link a:hover {
+ text-decoration: none;
+}
+
+.ajax-progress-throbber {
+  display: none;
+}
+
+.form-item a {
+  color: #7c7c7c;
+  text-decoration: none;
+}
+
+.form-item a:hover {
+  text-decoration: underline;
+}
+
+.form-item.selected a {
+  color: rgb(139, 0, 0);
+}
+
+#edit-sort-by, #edit-sort-order {
+  padding-left: 10px;
+} 
 
 .view-sales td {
   width:360px;

@@ -1,5 +1,5 @@
 /* hard reset for now sorry*/
-.galleryformatter { margin: 0 auto; }
+.galleryformatter { float: left; }
 .galleryformatter * { padding: 0; margin: 0; }
 .galleryformatter li {
   margin-left: 0;
